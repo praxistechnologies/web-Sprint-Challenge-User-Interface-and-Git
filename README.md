@@ -44,7 +44,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
-## Project Set Up
+## Project Set Up - DONE
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
@@ -58,7 +58,7 @@ Follow these steps for completing your project.
 
 
 
-## Minimum Viable Product
+## Minimum Viable Product - DONE
 
 Your finished project must include all of the following requirements:
 
@@ -82,7 +82,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
 
-### About Page
+### About Page - DONE
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
@@ -99,6 +99,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  - DONE
+* [ ] Ensure your CSS is organized and readable, you've separated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again - DONE
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
