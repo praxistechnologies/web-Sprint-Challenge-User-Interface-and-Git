@@ -33,7 +33,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-- HTML is a markup language and is designed to display data.  Semantic HTML is used in HTML5 and makes it so one can read the tag and know more about its meaning instantly. Non-semantic HTML is call presentational HTML which would include <div></div> that can be used with classes for CSS.
+- HTML is a markup language and is designed to display data.  Semantic HTML is used in HTML5 and makes it so one can read the tag and know more about its meaning instantly. Non-semantic HTML is call presentational HTML which would include <div></div> that can also still be used with classes for CSS if necessary.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```. 
 - display: inline; will not line break what is before it nor for what follows the element. display: block; will be on its own line and no content before nor after it will share that line. There will be a line break before and after the element. display: block; also respects width and height CSS, while display: inline; does not respect width and height CSS.
