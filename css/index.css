@@ -63,12 +63,84 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #202020;
+    font-weight: 400;
+}
+
+a:link {
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.logo {
+    padding-right: 8%;
+    text-align: left;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.button {
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: #242424!important;
+}
+
+@media only screen and (max-width: 700px) {
+.button {
+    padding-top: 3%;
+    color: #242424!important;
+}
+}
+
+.button2 {
+    color: #242424!important;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    transition:2s;
+   }  
+
+.button2:hover {
+    color: #fff!important;
+    background-color: #000;
+    border: 2px solid #4f4f4f;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    transition:2s;
+}
+
+.button3 {
+    color: #fff!important;
+}
+
+.bt {
+    padding-bottom: 10%;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 32px;
+}
+
+.header {
+    padding-top: 4%;
 }
 
 .top-content {
@@ -77,6 +149,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 2%;
 }
 
 .top-content .text-container {
@@ -88,6 +161,10 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content2 {
+    margin-bottom: 20px;
 }
 
 .middle-content h2 {
@@ -104,13 +181,60 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+
+.box3 {
+    background-color: cadetblue;
+}
+
+
+.box4 {
+    background-color: coral;
+}
+
+
+.box5 {
+    background-color: crimson;
+}
+
+
+.box6 {
+    background-color: forestgreen;
+}
+
+
+.box7 {
+    background-color: darkorchid;
+}
+
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+
+.box99 {
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +267,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.titlea {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.textb {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #202020;
+    font-weight: 400;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-bottom: 4%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+
+.textbb {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #202020;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.topsq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.topsqa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.sqpic {
+    width: 370px;
+    height: 230px;
+}
+
+.contact1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3%;
+    padding: 3%;
+}
+
+.inputa {
+    height: 50px;
+    width: 300px;
+}
+
+.darka:link {
+    color: #000;
+}
+
+.left1 {
+    padding: 4%;
+}
+
+
+.right1 {
+    padding: 4%;
 }

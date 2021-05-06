@@ -33,18 +33,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+- HTML is a markup language and is designed to display data.  Semantic HTML is used in HTML5 and makes it so one can read the tag and know more about its meaning instantly. Non-semantic HTML is call presentational HTML which would include <div></div> that can also still be used with classes for CSS if necessary.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. 
+- display: inline; will not line break what is before it nor for what follows the element. display: block; will be on its own line and no content before nor after it will share that line. There will be a line break before and after the element. display: block; also respects width and height CSS, while display: inline; does not respect width and height CSS.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? 
+- The Box Model generates squares that enable margin, padding, border, and content area.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? 
+- align-items: center; works on the cross axis. The cross axis is perpendicular to the main axis. justify-content: center; is only applied to the main axis.
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. 
+- Teams can use Git for version control and collaboration. Projects on GitHub can be accessed and manipulated using the standard Git command-line interface and all of the standard Git commands work with it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
-## Project Set Up
+## Project Set Up - DONE
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
@@ -58,7 +63,7 @@ Follow these steps for completing your project.
 
 
 
-## Minimum Viable Product
+## Minimum Viable Product - DONE
 
 Your finished project must include all of the following requirements:
 
@@ -82,7 +87,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
 
-### About Page
+### About Page - DONE
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
@@ -99,6 +104,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  - DONE
+* [ ] Ensure your CSS is organized and readable, you've separated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again - DONE
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
